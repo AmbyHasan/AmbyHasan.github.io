@@ -1,23 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Amber Hasan | Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body{
-      font-family: Arial, sans-serif;
-      background:#0f172a;
-      color:white;
-      text-align:center;
-      padding-top:100px;
-    }
-    h1{font-size:48px;}
-    p{font-size:22px;color:#94a3b8;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amber Hasan | Software Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins}
+body{background:#0f172a;color:white}
+section{padding:70px 12%}
+h1,h2{margin-bottom:15px}
+p{color:#cbd5e1;line-height:1.6}
+
+.hero{
+height:90vh;display:flex;flex-direction:column;justify-content:center;
+}
+.hero h1{font-size:55px}
+.hero span{color:#38bdf8}
+.btn{
+display:inline-block;margin-top:20px;padding:12px 25px;
+background:#38bdf8;color:#000;border-radius:8px;text-decoration:none;font-weight:600
+}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{
+background:#1e293b;padding:25px;border-radius:14px;transition:.3s
+}
+.card:hover{transform:translateY(-5px)}
+
+.skills span{
+display:inline-block;background:#38bdf8;color:black;
+padding:6px 12px;margin:6px;border-radius:20px;font-size:14px
+}
+
+footer{text-align:center;padding:30px;color:#94a3b8}
+</style>
 </head>
+
 <body>
-  <h1>Hi, I'm Amber Hasan 👋</h1>
-  <p>Full Stack Developer | DSA Enthusiast</p>
-  <p>My projects will live here soon 🚀</p>
+
+<section class="hero">
+<h1>Hi, I'm <span>Amber Hasan</span> 👋</h1>
+<p>Software Engineering Undergraduate | Full-Stack Developer | DSA Enthusiast</p>
+<a class="btn" href="https://github.com/AmbyHasan">View GitHub</a>
+</section>
+
+<section>
+<h2>About Me</h2>
+<p>
+Software Engineering undergraduate with strong command of data structures and algorithms and hands-on experience building scalable full-stack applications. Passionate about building reliable software and solving real-world problems.
+</p>
+</section>
+
+<section>
+<h2>Education</h2>
+<div class="card">
+<h3>B.Tech CSE — PSIT Kanpur</h3>
+<p>2023 – 2027 | CGPA: 8.96</p>
+</div>
+</section>
+
+<section>
+<h2>Technical Skills</h2>
+<div class="skills">
+<span>C++</span><span>JavaScript</span><span>TypeScript</span><span>Python</span>
+<span>React</span><span>Next.js</span><span>Node.js</span><span>Express</span>
+<span>MongoDB</span><span>PostgreSQL</span><span>MySQL</span><span>Git</span>
+<span>REST APIs</span><span>Docker Basics</span>
+</div>
+</section>
+
+<section>
+<h2>Projects</h2>
+<div class="grid">
+
+<div class="card">
+<h3>InterviewX</h3>
+<p>AI-powered interview platform with voice interviews, resume generator & assessments built using Next.js and TypeScript.</p>
+</div>
+
+<div class="card">
+<h3>Blogify</h3>
+<p>Full-stack MERN blogging platform with authentication, role-based access and Redux state management.</p>
+</div>
+
+<div class="card">
+<h3>Bubble Brain</h3>
+<p>TypeScript knowledge management app with JWT authentication and secure APIs.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Achievements</h2>
+<div class="grid">
+<div class="card">🏆 1100+ LeetCode Problems Solved</div>
+<div class="card">⚔️ LeetCode Knight (Rating 1863)</div>
+<div class="card">🚀 ISRO, Adobe & TVS Hackathon Participant</div>
+<div class="card">🎤 Hindustan Yuva Sansad Debate Winner</div>
+</div>
+</section>
+
+<section>
+<h2>Certifications</h2>
+<div class="grid">
+<div class="card">IBM Backend Development</div>
+<div class="card">TUF OOP</div>
+<div class="card">Infosys Python</div>
+<div class="card">Infosys Web Development</div>
+</div>
+</section>
+
+<footer>
+© 2026 Amber Hasan • Built with ❤️
+</footer>
+
 </body>
 </html>
